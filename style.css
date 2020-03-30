@@ -1,37 +1,53 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css?family=Lato:400,900&display=swap");
+* {
   margin: 0;
 }
-body{
-  font-family: 'Lato','sans-serif';
+body {
+  font-family: "Lato", "sans-serif";
 }
-#menu{
+#menu {
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
-  background-image:url('https://cdn.glitch.com/b54cf89a-9854-4f01-a545-04553711c46c%2Fiii.jpg?v=1584807370385');
+  background-image: url("https://cdn.glitch.com/b54cf89a-9854-4f01-a545-04553711c46c%2Fiii.jpg?v=1584807370385");
   height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-ul{
+ul {
   text-align: center;
   padding: 30px;
 }
-li{
-  font-weight: 900px;
+li {
+  font-weight: 900;
   padding: 8px;
   text-transform: uppercase;
   display: inline;
 }
-a{
+a {
   text-decoration: none;
   color: white;
-  padding 8px;
+  padding: 8px;
   border-bottom: 2px solid transparent;
   transition-duration: 0.5s;
 }
-a:hover{
+a:hover {
   border-bottom: 2px solid red;
+}
+#oferta{
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-aligin: center;
+}
+.info{
+  margin-top: 30px;
+  width 200px;
+  height: 200px;
+  border-radius: 150px;
+  object-fit cover;
+}
+.column-three{
+  floar ;
 }
