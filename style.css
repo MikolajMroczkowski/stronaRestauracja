@@ -30,7 +30,7 @@ a{
   color: white;
   padding 8px;
   border-bottom: 2px solid transparent;
-  transition-duration: 0.75s;
+  transition-duration: 0.5s;
 }
 a:hover{
   border-bottom: 2px solid red;
