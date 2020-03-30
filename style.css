@@ -35,19 +35,24 @@ a {
 a:hover {
   border-bottom: 2px solid red;
 }
-#oferta{
+#oferta {
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
   text-aligin: center;
 }
-.info{
+.info {
   margin-top: 30px;
-  width 200px;
+  width: 200px;
   height: 200px;
   border-radius: 150px;
-  object-fit cover;
+  object-fit: cover;
 }
-.column-three{
-  floar ;
+.column-three {
+  float: left;
+  width: 33.3%;
+}
+h1 {
+  padding: 30px;
+  text-algin: center;
 }
