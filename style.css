@@ -1,11 +1,13 @@
-/* CSS files add styling rules to your content */
-
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
+*{
+  margin 0;
 }
-
-h1 {
-  font-style: italic;
-  color: #373fff;
+body{
+  font-family: 'Lato','sans-serif';
+}
+#menu{
+  max-width: 140px;
+  margin-left: auto;
+  margin-right: auto
+  background-image:url('https://cdn.glitch.com/b54cf89a-9854-4f01-a545-04553711c46c%2Fiii.jpg?v=1584807370385');
 }
