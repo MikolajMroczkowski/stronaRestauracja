@@ -16,7 +16,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-image: url("../img/tlo.jpg");
-    height: 600px;
+    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -100,7 +100,7 @@ h1 {
 }
 
 #kontakt {
-    max-width: 1400px;
+    height: 1400px;
     margin-left: auto;
     margin-right: auto;
     text-aligin: center;
@@ -155,6 +155,35 @@ h1 {
     text-aligin: center;
     background-color: rgba(187, 187, 187, 0.16);
     clear: both;
+}
+
+@media only screen and (min-width: 2100px) {
+    #menu{
+        min-width: 2000px;
+        height: 800px;
+    }
+    li{
+        font-size: 25px;
+    }
+    #oferta{
+        max-width: 2000px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    #oferta p{
+        font-size: 20px;
+    }
+    #kontakt {
+        min-width: 2000px;
+    }
+    .mySlides{
+        width: 1400px;
+    }
+    #kontakt input, #kontakt textarea{
+        width: 1400px;
+    }
+
 }
 @media only screen and (max-width: 1400px) {
     #menu{
