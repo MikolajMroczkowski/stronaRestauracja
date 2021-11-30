@@ -1,69 +1,199 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,900&display=swap");
-* {
-  margin: 0;
-}
-body {
-  font-family: "Lato", "sans-serif";
-}
-#menu {
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url("https://cdn.glitch.com/b54cf89a-9854-4f01-a545-04553711c46c%2Fiii.jpg?v=1584807370385");
-  height: 800px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-ul {
-  text-align: center;
-  padding: 30px;
-}
-li {
-  font-weight: 900;
-  padding: 8px;
-  text-transform: uppercase;
-  display: inline;
-}
-a {
-  text-decoration: none;
-  color: white;
-  padding: 8px;
-  border-bottom: 2px solid transparent;
-  transition-duration: 0.5s;
-}
-a:hover {
-  border-bottom: 2px solid red;
-}
-#oferta {
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-  text-aligin: center;
-}
-.info {
-  margin-top: 30px;
-  width: 200px;
-  height: 200px;
-  border-radius: 150px;
-  object-fit: cover;
-}
-.column-three {
-  float: left;
-  width: 33.3%;
-}
-h1 {
-  padding: 30px;
-  text-algin: center;
-}
-#galeria {
-  padding
-  max-width: 1400px;
-  margin-left: auto;
-}
-.mySlides{
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Lato", "sans-serif";
+    text-align: center;
+    background: #eeeeee;
+}
+
+#menu {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./app/assets/img/tlo.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#menu h1 {
+    font-family: 'Amatic SC', cursive;
+    margin-top: 10%;
+    color: #ffffff;
+    font-size: 100px;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+ul {
+    text-align: center;
+    padding: 30px;
+}
+
+li {
+    font-weight: 900;
+    margin: 20px;
+    text-transform: uppercase;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-bottom: 2px solid transparent;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    border-bottom: 2px solid red;
+}
+
+#oferta {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-aligin: center;
+}
+
+.info {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+.column-three {
+    float: left;
+    padding:1px;
+    max-width: 33%;
+}
+
+.column-three p {
+    padding: 10px;
+}
+
+h1 {
+    text-algin: center;
+    font-size: 50px;
+    padding: 30px;
+}
+
+#galeria {
+    clear: both;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.mySlides {
+    width: 800px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+#kontakt {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-aligin: center;
+}
+
+#kontakt input, #kontakt textarea {
+    background-color: rgba(255, 255, 255, 0.16);
+    padding: 10px;
+    width: 750px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 2px;
+    resize: none;
+    border-width: 3px;
+    border-color: black;
+}
+
+#kontakt textarea {
+    height: 200px;
+}
+
+#kontakt input:hover, #kontakt textarea:hover, #kontakt input:focus, #kontakt textarea:focus {
+    border-bottom-color: red;
+    border-right-color: red;
+    outline: none;
+}
+
+#kontakt .btn {
+    width: 100px;
+    height: 44px;
+
+}
+
+#kontakt .reset:hover {
+    background-color: rgb(187, 187, 187);
+    border-color: black;
+    color: black;
+
+}
+
+#kontakt .send:hover {
+    background-color: rgba(255, 0, 0, 0.82);
+    border-color: black;
+    color: rgb(255, 255, 255);
+}
+.footer {
+    max-width: 1400px;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-aligin: center;
+    background-color: rgba(187, 187, 187, 0.16);
+    clear: both;
+}
+@media only screen and (max-width: 1400px) {
+    #menu{
+        max-width: none;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .mySlides{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    #kontakt input, #kontakt textarea {
+        padding: 2%;
+        width: 90%;
+    }
+    li{
+        margin: 0px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .column-three {
+        float: left;
+        padding: 10px;
+        max-width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 500px) {
+    li{
+        display: block;
+        padding: 15px;
+    }
+    #menu h1 {
+        font-family: 'Amatic SC', cursive;
+        color: #ffffff;
+        margin-top: 0px;
+        font-size: 55px;
+        text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    }
 }
