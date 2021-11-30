@@ -15,7 +15,7 @@ body {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("./app/assets/img/tlo.jpg");
+    background-image: url("../img/tlo.jpg");
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
